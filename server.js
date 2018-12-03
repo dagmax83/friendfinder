@@ -5,7 +5,8 @@ var path = require('path');
 
 // Configure the Express application
 var app = express();
-// var PORT = process.env.PORT;
+// when you get it pushed to heroku master
+// var PORT = process.env.PORT || 8080;
 var PORT = 8080;
 
 // Expose the public directory to access CSS files
